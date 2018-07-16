@@ -1,0 +1,74 @@
+{
+    "animals": [
+        {
+            "id": 1,
+            "name": "Doodles",
+            "breed": "Mutt"
+        },
+        {
+            "id": 2,
+            "name": "Jack",
+            "breed": "Poodle"
+        },
+        {
+            "id": 3,
+            "name": "Angus",
+            "breed": "Wolf"
+        },
+        {
+            "id": 4,
+            "name": "Henley",
+            "breed": "Greyhound"
+        },
+        {
+            "id": 5,
+            "name": "Derkins",
+            "breed": "Lab"
+        },
+        {
+            "id": 6,
+            "name": "Checkers",
+            "breed": "Bulldog"
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Brad Mills"
+        },
+        {
+            "id": 2,
+            "name": "Bill Phone"
+        },
+        {
+            "id": 3,
+            "name": "Steve Scent"
+        },
+        {
+            "id": 4,
+            "name": "Jack Lait"
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "name": "West Nashville",
+            "address": "343 Scooter St"
+        },
+        {
+            "id": 2,
+            "name": "Murfreesboro",
+            "address": "323 Figgins Dr"
+        },
+        {
+            "id": 3,
+            "name": "Nashville",
+            "address": "534 Downtown Dr"
+        },
+        {
+            "id": 4,
+            "name": "Nashville East",
+            "address": "5464 LittleDog Ln"
+        }
+    ]
+}

@@ -1,17 +1,27 @@
 import React, { Component } from 'react'
+import Location from "./location"
+import Database from "./ApiManager"
 
+export default class LocationList extends Component {
+    state = {
+        locations: []
 
-export default class KennelLocation extends Component {
+    }
+
+    componentDidMount() {
+        Database.getAllLocations()
+            .then(locations => this.setState({ locations: locations }))
+    }
+
     render() {
         return (
-            <div>
-                <h3>Student Kennels</h3>
-                <h4>Nashville North Location</h4>
-                <h5>500 Puppy Way</h5>
-                <h3>More Kennels</h3>
-                <h4>Murfreesboro Somewhere</h4>
-                <h5>600 More Puppies Dr</h5>
-            </div>
-        );
+            <React.Fragment>
+                {
+                    this.state.locations.map(location => {
+                        return <Location key={location.id} location={location} />
+                    })
+                }
+            </React.Fragment>
+        )
     }
 }
