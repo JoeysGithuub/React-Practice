@@ -6,10 +6,18 @@ import OwnersList from "./owners"
 export default class Kennel extends Component {
 
     state = {
+        owners: [
+            { id: 1, name: "Ryan Tanay", phoneNumber: 342-323-2323 },
+            { id: 2, name: "Emma Beaton", phoneNumber: 342-432-4324 },
+            { id: 3, name: "Dani Adkins", phoneNumber: 432-423-3423 },
+            { id: 4, name: "Adam Oswalt", phoneNumber: 343-343-2343 },
+            { id: 5, name: "Fletcher Bangs", phoneNumber: 343-342-2343 },
+            { id: 6, name: "Angela Lee", phoneNumber: 334-434-4433}
+        ],
         employees: [
             { id: 1, name: "Jessica Younker" },
             { id: 2, name: "Jordan Nelson" },
-            { id: 3, name: "Zoe Leblanc" },
+            { id: 3, name: "Zoe LeBlanc" },
             { id: 4, name: "Blaise Roberts" }
         ],
         locations: [
@@ -17,18 +25,12 @@ export default class Kennel extends Component {
             { id: 2, name: "Nashville South" }
         ],
         animals: [
-            { id: 1, name: "Dice"},
-            { id: 2, name: "Rice"},
-            { id: 3, name: "Ben"},
-            { id: 4, name: "Rick"}
-        ],
-        owners: [
-            { id: 1, name: "Ryan Tanay" },
-            { id: 2, name: "Emma Beaton" },
-            { id: 3, name: "Dani Adkins" },
-            { id: 4, name: "Adam Oswalt" },
-            { id: 5, name: "Fletcher Bangs" },
-            { id: 6, name: "Angela Lee" }
+            { id: 1, name: "Doodles" },
+            { id: 2, name: "Jack" },
+            { id: 3, name: "Angus" },
+            { id: 4, name: "Henley" },
+            { id: 5, name: "Derkins" },
+            { id: 6, name: "Checkers" }
         ]
     }
 
